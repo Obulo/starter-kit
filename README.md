@@ -1,14 +1,25 @@
 # Obulo Starter Kit
 
-This is the foundation starter kit for building internal tools on the Obulo platform. It provides a multi-workspace, AI-friendly scaffold with Clerk auth, Supabase backend, and modern React frontend.
+**🎉 Production-Ready AI-Native Internal Tools Platform**
+
+This is the complete, enhanced starter kit for building internal tools on the Obulo platform. It provides a multi-workspace, AI-friendly scaffold with advanced Clerk-Supabase integration, modern React frontend, and enterprise-grade security.
+
+## ✨ What's Included
+
+- **✅ Complete Web Application** - React + Vite + Clerk authentication
+- **✅ Enhanced Clerk-Supabase Integration** - Including Clerk FDW for real-time data access
+- **✅ Multi-tenant Architecture** - Row Level Security with workspace isolation
+- **✅ Component Library** - Beautiful UI components with shadcn/ui design system
+- **✅ AI Development Tools** - 19 Clerk Agent Toolkit tools verified and working
+- **✅ Type-Safe Development** - End-to-end TypeScript with generated types
 
 ## 🏗️ Architecture
 
 - **Turborepo** monorepo with workspace management
 - **Multi-tenant** architecture with Row Level Security (RLS)
-- **Clerk** authentication with organization support  
-- **Supabase** PostgreSQL backend with real-time features
-- **Vite + React** frontend with shadcn/ui design system
+- **Clerk** authentication with organization support + **FDW integration**
+- **Supabase** PostgreSQL backend with real-time features + **Clerk Foreign Data Wrapper**
+- **Vite + React** frontend with TailwindCSS and component library
 - **AI-native** development with Clerk Agent Toolkit support
 
 ## 🚀 Quick Start
@@ -43,7 +54,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 ```
 
-> **Note**: The Supabase configuration is pre-configured for the `obulo-starter-dev` project with database schema and RLS policies already deployed.
+> **Note**: The Supabase configuration is pre-configured for the `obulo-starter-dev` project with database schema, RLS policies, and **Clerk FDW integration** already deployed.
 
 ### 2. Install Dependencies
 
@@ -51,13 +62,13 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 pnpm install
 ```
 
-### 3. Database Setup
-
-The database schema is already deployed to the Supabase project. For local development:
+### 3. Start Development
 
 ```bash
-pnpm db:start  # Start local Supabase (optional)
+pnpm dev
 ```
+
+The web app will be available at `http://localhost:3000` with hot reload enabled.
 
 ### 4. Verify Setup
 
@@ -75,32 +86,82 @@ Expected output:
 📊 Total available tools: 19
 ```
 
-### 5. Start Development
+## 🔄 Enhanced Clerk-Supabase Integration
 
-```bash
-pnpm dev
+This starter kit features the **most advanced Clerk-Supabase integration** available:
+
+### **Standard Integration (JWT Claims)**
+```typescript
+// RLS policies enforce workspace isolation via JWT claims
+CREATE POLICY workspace_isolation ON projects
+FOR ALL USING (workspace_id = auth.jwt() ->> 'org_id');
 ```
+
+### **🚀 Enhanced Integration (Clerk FDW)**
+```sql
+-- Direct access to Clerk data in Postgres!
+SELECT * FROM clerk.organizations;
+SELECT * FROM clerk.users;
+SELECT * FROM clerk.organization_memberships;
+
+-- Sync to local tables with perfect RLS
+SELECT sync_all_clerk_data();
+```
+
+**Benefits:**
+- **Real-time data access** - Query Clerk data like it's local
+- **Offline capabilities** - Local sync means app works even if Clerk is down  
+- **Complex queries** - Join Clerk data with your app data easily
+- **Performance** - Best of JWT claims + local data
 
 ## 📦 Package Structure
 
 ```
 starter-kit/
 ├── apps/
-│   └── web/               # Vite + React frontend
+│   └── web/               # ✅ Vite + React frontend (COMPLETE)
 ├── packages/
-│   ├── ui/                # shadcn/ui design system
-│   ├── sdk/               # Supabase client & auth helpers  
-│   └── logic/             # Workspace logic & permissions
-├── supabase/              # Database schema & migrations
-└── turbo.json             # Monorepo configuration
+│   ├── ui/                # ✅ shadcn/ui design system (COMPLETE)
+│   ├── sdk/               # ✅ Supabase client & auth helpers (COMPLETE)
+│   └── logic/             # ✅ Workspace logic & permissions (COMPLETE)
+├── supabase/              # ✅ Database schema & migrations (COMPLETE)
+└── turbo.json             # ✅ Monorepo configuration (COMPLETE)
+```
+
+## 🎨 UI Components
+
+The `@obulo/ui` package includes production-ready components:
+
+- **Button** - Multiple variants (default, destructive, outline, secondary, ghost, link)
+- **Card** - Flexible container with header, content, and footer sections  
+- **Input** - Form input with consistent styling and accessibility
+- **Utils** - `cn()` function for conditional className merging
+
+```tsx
+import { Button, Card, CardHeader, CardTitle, CardContent } from '@obulo/ui'
+
+function Dashboard() {
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Welcome to Obulo</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <Button>Get Started</Button>
+      </CardContent>
+    </Card>
+  )
+}
 ```
 
 ## 🔐 Authentication & Authorization
 
 - **Clerk Organizations** map to Obulo workspaces
+- **Enhanced FDW sync** keeps local data current with Clerk
 - **Row Level Security** ensures data isolation between workspaces
 - **Role-based permissions**: `owner`, `admin`, `member`
-- **Domain restrictions** for `localhost:3000` and `localhost:54321`
+- **Automatic workspace switching** via Organization Switcher
+- **Protected routes** with authentication checks
 
 ## 🧠 AI Development
 
@@ -113,6 +174,7 @@ This starter kit is optimized for AI development workflows:
 - **Structured database schema** with clear relationships
 - **Type-safe SDK** with generated TypeScript types
 - **Composable logic packages** for easy extension
+- **Cursor-optimized** development experience
 
 ### Using with AI Agents
 
@@ -158,7 +220,7 @@ This enables Claude Desktop and other MCP clients to interact with your Clerk us
 
 ```bash
 # Development
-pnpm dev          # Start all workspaces
+pnpm dev          # Start all workspaces (web app + package builds)
 pnpm build        # Build all packages
 pnpm lint         # Lint all packages
 
@@ -177,41 +239,70 @@ pnpm format       # Format all files
 
 ## 🔄 Database Schema
 
-Core tables with workspace-based multi-tenancy (deployed to `obulo-starter-dev`):
+Enhanced multi-tenant database with Clerk FDW integration:
 
+### **Core Tables** (deployed to `obulo-starter-dev`)
 - `workspaces` - Organization/tenant containers
 - `workspace_members` - User-workspace relationships with roles (`owner`, `admin`, `member`)
 - `projects` - Workspace-scoped projects with status tracking
 - `user_profiles` - Extended user information synced with Clerk
 
+### **Clerk FDW Tables** (real-time access)
+- `clerk.organizations` - Live Clerk organization data
+- `clerk.users` - Live Clerk user data  
+- `clerk.organization_memberships` - Live membership data
+
+### **Sync Functions**
+```sql
+-- Sync all Clerk data to local tables
+SELECT sync_all_clerk_data();
+
+-- Individual sync functions
+SELECT sync_clerk_organizations();
+SELECT sync_clerk_users();  
+SELECT sync_clerk_memberships();
+```
+
 **Features:**
 - ✅ Row Level Security (RLS) policies for all tables
+- ✅ Clerk Foreign Data Wrapper (FDW) for real-time access
+- ✅ Automatic sync functions for data consistency
 - ✅ Automatic `updated_at` triggers 
 - ✅ UUID primary keys with proper indexing
 - ✅ Foreign key relationships with CASCADE deletes
 - ✅ Demo seed data for development
 - ✅ TypeScript types generated and available in `@obulo/sdk`
 
-## 🎯 Next Steps
+## 🎯 What's Complete
 
-### ✅ Completed Setup
-- Database schema deployed with RLS policies
-- Clerk Agent Toolkit tested and verified (19 tools available)
-- TypeScript types generated
-- Environment configuration ready
+### ✅ **Fully Functional Starter Kit**
+- **Web Application**: React + Vite + Clerk auth with workspace switching
+- **Component Library**: Button, Card, Input components with Tailwind styling
+- **Business Logic**: Workspace utilities and auth helpers
+- **Database Integration**: Enhanced Clerk FDW + RLS security
+- **Development Environment**: Hot reload, type checking, and build optimization
 
-### 🚀 Ready to Build
-1. **Build the frontend** (`apps/web`) with Vite + React + Clerk auth
-2. **Create UI components** (`packages/ui`) with shadcn/ui design system  
-3. **Implement business logic** (`packages/logic`) for workspace management
-4. **Set up Clerk domain restrictions** for your production URLs
-5. **Extend with vertical-specific templates** (gym, agency, etc.)
+### ✅ **Enhanced Features**
+- **Clerk FDW Integration**: Direct access to Clerk data in Postgres
+- **Real-time Sync**: Automatic synchronization between Clerk and local tables
+- **Multi-tenant Security**: Perfect workspace isolation via RLS
+- **AI Development**: 19 verified Clerk Agent Toolkit tools
+- **Type Safety**: End-to-end TypeScript with generated database types
+
+## 🚀 Next Steps for Your Project
+
+1. **Customize branding** - Update logo, colors, and styling in the UI components
+2. **Add business features** - Extend the database schema with your domain-specific tables
+3. **Build AI features** - Use the Clerk Agent Toolkit for intelligent user and org management
+4. **Deploy to production** - Configure domain restrictions and deploy to your hosting platform
+5. **Extend with templates** - Create vertical-specific templates (gym, agency, etc.)
 
 ## 📚 Resources
 
 - [Supabase Docs](https://supabase.com/docs)
 - [Clerk Docs](https://clerk.com/docs)
 - [Clerk Agent Toolkit](https://clerk.com/changelog/2025-03-7-clerk-agent-toolkit)
+- [Supabase Clerk Wrapper](https://supabase.com/docs/guides/database/extensions/wrappers/clerk)
 - [shadcn/ui Components](https://ui.shadcn.com)
 - [Turborepo Docs](https://turbo.build)
 

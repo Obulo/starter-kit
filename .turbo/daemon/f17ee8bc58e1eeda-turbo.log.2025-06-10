@@ -1,0 +1,204 @@
+2025-06-10T19:24:52.588951Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/2.cookie"), AnchoredSystemPathBuf(".turbo/cookies/3.cookie"), AnchoredSystemPathBuf("packages/logic/.turbo/turbo-build.log"), AnchoredSystemPathBuf("packages/ui/.turbo/turbo-build.log"), AnchoredSystemPathBuf("packages/logic/.turbo"), AnchoredSystemPathBuf(".turbo/cookies/1.cookie"), AnchoredSystemPathBuf("packages/ui/.turbo"), AnchoredSystemPathBuf(".turbo/cookies/.turbo-cookie")}
+2025-06-10T19:24:52.588961Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:24:53.388533Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist"), AnchoredSystemPathBuf("packages/logic/dist/index.mjs"), AnchoredSystemPathBuf("packages/logic/tsup.config.bundled_v4iq69pofo.mjs"), AnchoredSystemPathBuf("packages/ui/tsup.config.bundled_jcw0aymggt.mjs"), AnchoredSystemPathBuf("packages/ui/dist"), AnchoredSystemPathBuf("packages/ui/dist/index.mjs")}
+2025-06-10T19:24:53.388543Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }, WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:24:54.188658Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/.turbo/turbo-build.log"), AnchoredSystemPathBuf("packages/ui/.turbo/turbo-build.log")}
+2025-06-10T19:24:54.188672Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }, WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:25:00.188202Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/src/workspace.ts")}
+2025-06-10T19:25:00.188211Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:25:00.288619Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/src/workspace.ts")}
+2025-06-10T19:25:00.288631Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:25:08.688450Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/4.cookie")}
+2025-06-10T19:25:08.688458Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:25:08.788146Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/5.cookie"), AnchoredSystemPathBuf(".turbo/cookies/6.cookie"), AnchoredSystemPathBuf("packages/ui/.turbo/turbo-build.log"), AnchoredSystemPathBuf("packages/logic/.turbo/turbo-build.log")}
+2025-06-10T19:25:08.788154Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }, WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:25:09.188267Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/tsup.config.bundled_u4clbsw8va.mjs"), AnchoredSystemPathBuf("packages/logic/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/tsup.config.bundled_8yt9s1tc2km.mjs")}
+2025-06-10T19:25:09.188275Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:25:09.888414Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:25:09.888423Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:25:09.988679Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/.turbo/turbo-build.log"), AnchoredSystemPathBuf(".turbo/cookies/8.cookie"), AnchoredSystemPathBuf("packages/ui/dist/index.d.mts"), AnchoredSystemPathBuf(".turbo/cookies/7.cookie"), AnchoredSystemPathBuf("packages/ui/.turbo/turbo-build.log")}
+2025-06-10T19:25:09.988687Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }, WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:25:23.588551Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749583523510-e03293383efbf.mjs")}
+2025-06-10T19:25:23.588558Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:30.388647Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src"), AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:25:30.388655Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:32.487881Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:25:32.487912Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:38.388870Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:25:38.388879Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:38.488796Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:25:38.488804Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:44.288097Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/vite-env.d.ts")}
+2025-06-10T19:25:44.288105Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:45.387840Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/vite-env.d.ts")}
+2025-06-10T19:25:45.387848Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:51.388100Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components"), AnchoredSystemPathBuf("apps/web/src/components/LoadingSpinner.tsx")}
+2025-06-10T19:25:51.388109Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:25:52.688467Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/LoadingSpinner.tsx")}
+2025-06-10T19:25:52.688484Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:00.987761Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AuthLayout.tsx")}
+2025-06-10T19:26:00.987772Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:02.188332Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AuthLayout.tsx")}
+2025-06-10T19:26:02.188341Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:12.988601Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AppLayout.tsx")}
+2025-06-10T19:26:12.988610Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:14.087757Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AppLayout.tsx")}
+2025-06-10T19:26:14.087765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:19.688596Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AppLayout.tsx")}
+2025-06-10T19:26:19.688604Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:25.088475Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AppLayout.tsx")}
+2025-06-10T19:26:25.088483Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:25.187995Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AppLayout.tsx")}
+2025-06-10T19:26:25.188002Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:45.288624Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/pages"), AnchoredSystemPathBuf("apps/web/src/pages/Dashboard.tsx")}
+2025-06-10T19:26:45.288634Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:26:46.388229Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/pages/Dashboard.tsx")}
+2025-06-10T19:26:46.388236Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:27:09.088569Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749583629019-e92f516d879b1.mjs")}
+2025-06-10T19:27:09.088577Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:27:29.087841Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/.!6264!.env.local")}
+2025-06-10T19:27:29.087850Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:27:29.187385Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/.!6265!.env.local"), AnchoredSystemPathBuf("apps/web/.!6266!.env.local"), AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749583649177-61861bfb17fd9.mjs")}
+2025-06-10T19:27:29.187391Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:28:17.988505Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/9.cookie")}
+2025-06-10T19:28:17.988512Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:28:18.388412Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749583698333-6e45b336cbde3.mjs")}
+2025-06-10T19:28:18.388420Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:28:18.487982Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/tsup.config.bundled_qn1w8qscukc.mjs"), AnchoredSystemPathBuf("packages/ui/dist/index.mjs"), AnchoredSystemPathBuf("packages/logic/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/tsup.config.bundled_mj73jyon67g.mjs")}
+2025-06-10T19:28:18.487997Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }, WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:28:19.088625Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:28:19.088636Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:28:19.188360Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:28:19.188368Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:28:19.388609Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:28:19.388621Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:28:19.488944Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:28:19.488953Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:37:33.805215Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/pages/Dashboard.tsx"), AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:37:33.805223Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:38:54.305764Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-06-10T19:38:54.305773Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:43:07.607023Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/index.html")}
+2025-06-10T19:43:07.607030Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:08.706445Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/index.html")}
+2025-06-10T19:43:08.706454Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:16.807058Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/main.tsx")}
+2025-06-10T19:43:16.807066Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:18.306815Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/main.tsx")}
+2025-06-10T19:43:18.306825Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:27.705865Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/index.css")}
+2025-06-10T19:43:27.705878Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:28.906696Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/index.css")}
+2025-06-10T19:43:28.906706Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:40.106614Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/index.css")}
+2025-06-10T19:43:40.106622Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:47.606925Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tailwind.config.js")}
+2025-06-10T19:43:47.606939Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:48.807422Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tailwind.config.js")}
+2025-06-10T19:43:48.807430Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:56.106970Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/postcss.config.js")}
+2025-06-10T19:43:56.106989Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:43:57.307411Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/postcss.config.js")}
+2025-06-10T19:43:57.307422Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:45:11.107004Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("_tmp_6738_2bf6bd2504c969dd9c235f3500f21f77")}
+2025-06-10T19:45:11.107012Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:45:12.008058Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-06-10T19:45:12.008071Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-06-10T19:45:12.307613Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("pnpm-lock.yaml"), AnchoredSystemPathBuf("apps/web/package.json"), AnchoredSystemPathBuf("pnpm-lock.yaml.1940057261"), AnchoredSystemPathBuf("apps/web/package.json.637323894")}
+2025-06-10T19:45:12.307623Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:45:27.207253Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/10.cookie")}
+2025-06-10T19:45:27.207260Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:45:27.706059Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749584727653-2e85abc2defd8.mjs")}
+2025-06-10T19:45:27.706067Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:45:28.007291Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/tsup.config.bundled_up1r91pu7zj.mjs"), AnchoredSystemPathBuf("packages/logic/tsup.config.bundled_6n5mwoeyeo5.mjs"), AnchoredSystemPathBuf("packages/ui/dist/index.mjs")}
+2025-06-10T19:45:28.007305Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:45:28.606930Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:45:28.606939Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:45:28.707330Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:45:28.707339Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:45:28.907569Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:45:28.907577Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:45:29.007455Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:45:29.007463Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:46:21.507646Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/index.css")}
+2025-06-10T19:46:21.507655Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:46:50.008058Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(""), AnchoredSystemPathBuf("_tmp_6925_f748acf7497b5049b948a2f4b459e6e2")}
+2025-06-10T19:46:50.008071Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:46:50.407951Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("pnpm-lock.yaml"), AnchoredSystemPathBuf("apps/web/package.json.3070226125"), AnchoredSystemPathBuf("pnpm-lock.yaml.1299005082")}
+2025-06-10T19:46:50.408030Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:46:50.507531Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json.3070226125"), AnchoredSystemPathBuf("apps/web/package.json")}
+2025-06-10T19:46:50.507539Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:46:50.906762Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("_tmp_6929_86f1f4e048dd83a179e97452ed47515d"), AnchoredSystemPathBuf("")}
+2025-06-10T19:46:50.906802Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:46:52.009354Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("")}
+2025-06-10T19:46:52.009364Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({}))
+2025-06-10T19:46:52.307866Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json.2634854215"), AnchoredSystemPathBuf("apps/web/package.json"), AnchoredSystemPathBuf("pnpm-lock.yaml"), AnchoredSystemPathBuf("pnpm-lock.yaml.2680149484")}
+2025-06-10T19:46:52.307875Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }, WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:46:59.308247Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tailwind.config.js")}
+2025-06-10T19:46:59.308269Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:46:59.408303Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tailwind.config.js")}
+2025-06-10T19:46:59.408310Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:47:06.207621Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/postcss.config.js")}
+2025-06-10T19:47:06.207630Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:47:06.308517Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/postcss.config.js")}
+2025-06-10T19:47:06.308527Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:47:50.107573Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/11.cookie")}
+2025-06-10T19:47:50.107581Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:47:50.608075Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749584870567-64e7f546a1c35.mjs")}
+2025-06-10T19:47:50.608087Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:48:07.908251Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tailwind.config.cjs"), AnchoredSystemPathBuf("apps/web/postcss.config.cjs"), AnchoredSystemPathBuf("apps/web/tailwind.config.js"), AnchoredSystemPathBuf("apps/web/postcss.config.js")}
+2025-06-10T19:48:07.908267Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:48:20.107699Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo/cookies/12.cookie")}
+2025-06-10T19:48:20.107706Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-06-10T19:48:20.507896Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1749584900428-264eb10a9742e.mjs")}
+2025-06-10T19:48:20.507905Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:48:20.808628Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/dist/index.mjs"), AnchoredSystemPathBuf("packages/ui/tsup.config.bundled_r5wgzxrwcuh.mjs"), AnchoredSystemPathBuf("packages/logic/tsup.config.bundled_msglqxxjcg.mjs")}
+2025-06-10T19:48:20.808642Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:48:20.908524Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.mjs")}
+2025-06-10T19:48:20.908533Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:48:21.508570Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts"), AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:48:21.508597Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }, WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:48:21.708438Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/logic/dist/index.d.mts")}
+2025-06-10T19:48:21.708448Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/logic"), path: AnchoredSystemPathBuf("packages/logic") }}))
+2025-06-10T19:48:21.807702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/dist/index.d.mts")}
+2025-06-10T19:48:21.807711Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@obulo/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-06-10T19:57:33.594332Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:57:33.594339Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:57:51.894475Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tsconfig.json")}
+2025-06-10T19:57:51.894484Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:57:53.494694Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tsconfig.json")}
+2025-06-10T19:57:53.494702Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:58:00.093611Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tsconfig.node.json")}
+2025-06-10T19:58:00.093620Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:58:01.494354Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/tsconfig.node.json")}
+2025-06-10T19:58:01.494366Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T19:59:45.294808Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T19:59:45.294827Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:00:01.694314Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:00:01.694328Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:00:01.794707Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:00:01.794718Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:00:15.294527Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:00:15.294536Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:00:15.394027Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:00:15.394037Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:03:35.595210Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:03:35.595220Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:06:46.895420Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:06:46.895433Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:06:46.994856Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:06:46.994864Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:06:54.794675Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:06:54.794683Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:06:54.895499Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:06:54.895509Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:07:05.795322Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/components/AuthLayout.tsx")}
+2025-06-10T20:07:05.795331Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:07:15.294999Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:07:15.295006Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:07:44.995668Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:07:44.995677Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:09:43.295034Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:09:43.295041Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
+2025-06-10T20:10:19.095118Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/App.tsx")}
+2025-06-10T20:10:19.095128Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("obulo-web"), path: AnchoredSystemPathBuf("apps/web") }}))
