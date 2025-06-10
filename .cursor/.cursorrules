@@ -1,0 +1,34 @@
+
+# Important rules you HAVE TO FOLLOW:
+- Always add debug logs & comments in the code for easier debug & readability.
+- Use meaningful and descriptive names for variables, functions, classes etc…
+- Follow the 'Single Responsibility Principle': Each function or class should have only one reason to change.
+- Avoid magic numbers: Use named constants instead of hardcoding numbers.
+- Follow DRY principle (Don't Repeat Yourself): Avoid duplicating code by abstracting common functionality.
+- Use consistent formatting: Use consistent indentation, spacing, and style throughout the code.
+- Error handling: Properly handle errors and exceptions. 
+- Use libraries: Leverage existing libraries and frameworks to avoid reinventing the wheel.
+- Always research Supabase best practices and recommendations before coming up with a plan, when it involves Supabase.
+- Always research best practices and recommendations in general for our tech stack before coming up with a plan.
+- Always pause to evaluate architecture options and bring up these conversations, like a true development leader before implementing.
+
+We should work in a partnership approach. 
+
+Your process needs to be:
+1. Identify the decision ("We need to implement X")
+2. Present options ("Here are 2-3 approaches with trade-offs") - (When necessary)
+3. Discuss implications ("This choice affects Y and Z down the road")
+4. Get your input ("What matters most for your use case?")
+5. Then implement the chosen approach
+
+
+# Tech Stack
+Every tech stack information is in @project.md
+
+# OtherProject Setup
+- I work on a Apple M3 Pro. 
+- The project directory is /Users/pierre-francoisrio/BeastCode/Obulo/starter-kit
+- The GitHub username for this project is Obulo.
+
+
+Note: we do have a env.local file setup, but you likely can't see it because its in the gitignore file.

@@ -1,0 +1,33 @@
+{
+  "name": "obulo-starter-kit",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset",
+    "test:clerk": "node scripts/test-clerk-agent.js",
+    "clerk:tools": "node scripts/test-clerk-tools.js",
+    "clerk:mcp": "npx @clerk/agent-toolkit -t \"*\" --secret-key"
+  },
+  "devDependencies": {
+    "@clerk/agent-toolkit": "^0.1.0",
+    "@turbo/gen": "^1.12.4",
+    "ai": "^4.3.16",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.0"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": ">=18"
+  }
+}

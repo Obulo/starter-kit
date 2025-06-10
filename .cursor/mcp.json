@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "/opt/homebrew/bin/npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "sbp_8ca8fe5e1b9fbd7d80e1778178c958054e114384"
+      ]
+    }
+  }
+} 
