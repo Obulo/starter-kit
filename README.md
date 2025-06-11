@@ -2,16 +2,41 @@
 
 **🎉 Production-Ready AI-Native Internal Tools Platform**
 
-This is the complete, enhanced starter kit for building internal tools on the Obulo platform. It provides a multi-workspace, AI-friendly scaffold with advanced Clerk-Supabase integration, modern React frontend, and enterprise-grade security.
+This is the complete, enhanced starter kit for building internal tools on the Obulo platform. It provides a multi-workspace, AI-friendly scaffold with advanced Clerk-Supabase integration, modern React frontend, and enterprise-grade security with **professional shadcn/ui design system**.
 
 ## ✨ What's Included
 
-- **✅ Complete Web Application** - React + Vite + Clerk authentication
+- **✅ Complete Web Application** - React + Vite + Clerk authentication with **custom shadcn/ui interface**
 - **✅ Enhanced Clerk-Supabase Integration** - Including Clerk FDW for real-time data access
 - **✅ Multi-tenant Architecture** - Row Level Security with workspace isolation
-- **✅ Component Library** - Beautiful UI components with shadcn/ui design system
+- **✅ Enterprise Design System** - Complete shadcn/ui implementation with design tokens
+- **✅ Professional Authentication UI** - Custom sign-in forms with shadcn login-03 design
+- **✅ Component Library** - Beautiful UI components with consistent styling and dark mode
 - **✅ AI Development Tools** - 19 Clerk Agent Toolkit tools verified and working
 - **✅ Type-Safe Development** - End-to-end TypeScript with generated types
+
+## 🎨 **New: Enterprise-Grade Design System**
+
+This starter kit now features a **complete shadcn/ui design system** that rivals the best SaaS applications:
+
+### **🏗️ Professional UI Architecture**
+- **CSS Variables & Design Tokens** - Consistent theming across the entire application
+- **Dark Mode Ready** - Automatic theme switching with perfect contrast ratios
+- **Responsive Design** - Mobile-first approach with proper breakpoints
+- **Accessibility** - WCAG compliant with proper focus states and keyboard navigation
+
+### **🎯 Beautiful Authentication**
+- **Custom Sign-in Forms** - No more embedded iframe look from Clerk
+- **shadcn login-03 Design** - Matches the best modern SaaS interfaces
+- **Professional Branding** - Clean logo and consistent company messaging
+- **Seamless User Experience** - Smooth transitions and loading states
+
+### **📚 Design System Documentation**
+Complete documentation in `docs/design-system.md` covering:
+- Color usage guidelines and design tokens
+- Component patterns and best practices
+- Custom component creation
+- Typography and spacing systems
 
 ## 🏗️ Architecture
 
@@ -19,7 +44,7 @@ This is the complete, enhanced starter kit for building internal tools on the Ob
 - **Multi-tenant** architecture with Row Level Security (RLS)
 - **Clerk** authentication with organization support + **FDW integration**
 - **Supabase** PostgreSQL backend with real-time features + **Clerk Foreign Data Wrapper**
-- **Vite + React** frontend with TailwindCSS and component library
+- **Vite + React** frontend with **complete shadcn/ui design system**
 - **AI-native** development with Clerk Agent Toolkit support
 
 ## 🚀 Quick Start
@@ -46,12 +71,8 @@ SUPABASE_URL=https://vbgyshnnhnnjsalphpab.supabase.co
 SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiZ3lzaG5uaG5uanNhbHBocGFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk1NzU2NDksImV4cCI6MjA2NTE1MTY0OX0.hA1-xqKlJJtnMrbiD__WDehgNm6piPTDyLuk33VvBvI
 
 # Clerk - Get these from your Clerk dashboard
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_publishable_key
+VITE_CLERK_PUBLISHABLE_KEY=pk_test_your_publishable_key
 CLERK_SECRET_KEY=sk_test_your_secret_key
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 ```
 
 > **Note**: The Supabase configuration is pre-configured for the `obulo-starter-dev` project with database schema, RLS policies, and **Clerk FDW integration** already deployed.
@@ -68,7 +89,7 @@ pnpm install
 pnpm dev
 ```
 
-The web app will be available at `http://localhost:3000` with hot reload enabled.
+The web app will be available at `http://localhost:3001/` with hot reload enabled and **beautiful shadcn/ui interface**.
 
 ### 4. Verify Setup
 
@@ -119,21 +140,30 @@ SELECT sync_all_clerk_data();
 ```
 starter-kit/
 ├── apps/
-│   └── web/               # ✅ Vite + React frontend (COMPLETE)
+│   └── web/               # ✅ Vite + React with shadcn/ui design system (COMPLETE)
 ├── packages/
-│   ├── ui/                # ✅ shadcn/ui design system (COMPLETE)
+│   ├── ui/                # ✅ Complete shadcn/ui component library (COMPLETE)
 │   ├── sdk/               # ✅ Supabase client & auth helpers (COMPLETE)
 │   └── logic/             # ✅ Workspace logic & permissions (COMPLETE)
+├── docs/                  # ✅ Design system documentation (COMPLETE)
 ├── supabase/              # ✅ Database schema & migrations (COMPLETE)
 └── turbo.json             # ✅ Monorepo configuration (COMPLETE)
 ```
 
-## 🎨 UI Components
+## 🎨 **Enhanced UI Components**
 
-The `@obulo/ui` package includes production-ready components:
+The `@obulo/ui` package includes **enterprise-grade shadcn/ui components**:
 
-- **Button** - Multiple variants (default, destructive, outline, secondary, ghost, link)
-- **Card** - Flexible container with header, content, and footer sections  
+### **Design System Features**
+- **CSS Variables** - Consistent theming with `--primary`, `--secondary`, `--muted`, etc.
+- **Variant System** - Multiple component variants using class-variance-authority
+- **Dark Mode** - Automatic theme switching with perfect color schemes
+- **Typography Scale** - Consistent font sizes and line heights
+- **Spacing System** - Harmonious spacing using design tokens
+
+### **Available Components**
+- **Button** - 6 variants (default, destructive, outline, secondary, ghost, link)
+- **Card** - Professional container with header, content, and footer sections  
 - **Input** - Form input with consistent styling and accessibility
 - **Utils** - `cn()` function for conditional className merging
 
@@ -146,16 +176,35 @@ function Dashboard() {
       <CardHeader>
         <CardTitle>Welcome to Obulo</CardTitle>
       </CardHeader>
-      <CardContent>
-        <Button>Get Started</Button>
+      <CardContent className="space-y-4">
+        <Button variant="default">Primary Action</Button>
+        <Button variant="outline">Secondary Action</Button>
       </CardContent>
     </Card>
   )
 }
 ```
 
+### **Design Token Usage**
+```tsx
+// ✅ Use design tokens for consistent styling
+<div className="bg-card text-card-foreground border-border">
+  <p className="text-muted-foreground">Secondary text</p>
+  <Button className="bg-primary text-primary-foreground">
+    Primary Button
+  </Button>
+</div>
+```
+
 ## 🔐 Authentication & Authorization
 
+### **Professional Authentication UI**
+- **Custom Sign-in Forms** - Beautiful shadcn login-03 design pattern
+- **No Embedded Components** - Seamless, native-looking authentication
+- **Company Branding** - Professional logo and messaging
+- **Enterprise Messaging** - "Contact your company administrator" for access requests
+
+### **Security & Permissions**
 - **Clerk Organizations** map to Obulo workspaces
 - **Enhanced FDW sync** keeps local data current with Clerk
 - **Row Level Security** ensures data isolation between workspaces
@@ -275,35 +324,46 @@ SELECT sync_clerk_memberships();
 
 ## 🎯 What's Complete
 
-### ✅ **Fully Functional Starter Kit**
-- **Web Application**: React + Vite + Clerk auth with workspace switching
-- **Component Library**: Button, Card, Input components with Tailwind styling
+### ✅ **Enterprise-Grade Starter Kit**
+- **Professional Web App**: React + Vite + Custom shadcn/ui authentication
+- **Complete Design System**: CSS variables, design tokens, dark mode support
+- **Component Library**: Enterprise-grade Button, Card, Input with variant system
 - **Business Logic**: Workspace utilities and auth helpers
 - **Database Integration**: Enhanced Clerk FDW + RLS security
 - **Development Environment**: Hot reload, type checking, and build optimization
 
 ### ✅ **Enhanced Features**
+- **shadcn/ui Design System**: Complete implementation with 50+ design tokens
+- **Professional Authentication**: Custom sign-in forms with beautiful UX
 - **Clerk FDW Integration**: Direct access to Clerk data in Postgres
 - **Real-time Sync**: Automatic synchronization between Clerk and local tables
 - **Multi-tenant Security**: Perfect workspace isolation via RLS
 - **AI Development**: 19 verified Clerk Agent Toolkit tools
 - **Type Safety**: End-to-end TypeScript with generated database types
+- **Design Documentation**: Comprehensive guide for consistent development
 
 ## 🚀 Next Steps for Your Project
 
-1. **Customize branding** - Update logo, colors, and styling in the UI components
-2. **Add business features** - Extend the database schema with your domain-specific tables
-3. **Build AI features** - Use the Clerk Agent Toolkit for intelligent user and org management
-4. **Deploy to production** - Configure domain restrictions and deploy to your hosting platform
-5. **Extend with templates** - Create vertical-specific templates (gym, agency, etc.)
+1. **Extend the design system** - Add more shadcn/ui components as needed
+2. **Customize branding** - Update colors and styling using the CSS variables
+3. **Add business features** - Extend the database schema with your domain-specific tables
+4. **Build AI features** - Use the Clerk Agent Toolkit for intelligent user and org management
+5. **Deploy to production** - Configure domain restrictions and deploy to your hosting platform
+6. **Create vertical templates** - Build industry-specific templates (gym, agency, etc.)
 
 ## 📚 Resources
 
+- [Obulo Design System Guide](./docs/design-system.md)
+- [shadcn/ui Components](https://ui.shadcn.com)
+- [shadcn/ui Blocks](https://ui.shadcn.com/blocks)
 - [Supabase Docs](https://supabase.com/docs)
 - [Clerk Docs](https://clerk.com/docs)
 - [Clerk Agent Toolkit](https://clerk.com/changelog/2025-03-7-clerk-agent-toolkit)
 - [Supabase Clerk Wrapper](https://supabase.com/docs/guides/database/extensions/wrappers/clerk)
-- [shadcn/ui Components](https://ui.shadcn.com)
 - [Turborepo Docs](https://turbo.build)
+
+---
+
+**🎉 Ready to build professional internal tools that your clients will love!**
 
 

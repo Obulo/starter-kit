@@ -21,6 +21,7 @@ Your process needs to be:
 4. Get your input ("What matters most for your use case?")
 5. Then implement the chosen approach
 
+Remember that we must build everything so that it is modulable, customizable, maintainable, scalable.
 
 # Tech Stack
 Every tech stack information is in @project.md

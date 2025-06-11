@@ -2,9 +2,11 @@ import React from 'react'
 import { ClerkProvider, SignIn, SignUp, useAuth, useOrganization, CreateOrganization, OrganizationSwitcher } from '@clerk/clerk-react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Dashboard } from './pages/Dashboard'
+import { Settings } from './pages/Settings'
 import { AuthLayout } from './components/AuthLayout'
 import { AppLayout } from './components/AppLayout'
 import { LoadingSpinner } from './components/LoadingSpinner'
+import { SignInForm } from './components/SignInForm'
 
 const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
@@ -37,33 +39,12 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
 function AppRoutes() {
   return (
     <Routes>
-            {/* Sign-in only for authorized users */}
+      {/* Custom sign-in form for authorized users */}
       <Route
         path="/sign-in/*"
         element={
           <AuthLayout>
-            <div className="text-center mb-6">
-              <p className="text-sm text-gray-600">
-                Sign in with your authorized account
-              </p>
-            </div>
-            <SignIn
-              routing="path"
-              path="/sign-in"
-              afterSignInUrl="/dashboard"
-              appearance={{
-                elements: {
-                  formButtonPrimary: "bg-blue-600 hover:bg-blue-700",
-                  footerActionLink: "hidden", // Hide sign-up link
-                  footer: "hidden" // Hide the entire footer section
-                }
-              }}
-            />
-            <div className="text-center mt-4">
-              <p className="text-sm text-gray-600">
-                Need access? Contact your company administrator
-              </p>
-            </div>
+            <SignInForm />
           </AuthLayout>
         }
       />
@@ -98,6 +79,16 @@ function AppRoutes() {
             <AppLayout>
               <Dashboard />
             </AppLayout>
+          </ProtectedRoute>
+        }
+      />
+
+      {/* Settings routes */}
+      <Route
+        path="/settings/*"
+        element={
+          <ProtectedRoute>
+            <Settings />
           </ProtectedRoute>
         }
       />
